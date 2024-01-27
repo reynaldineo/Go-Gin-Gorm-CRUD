@@ -1,0 +1,6 @@
+# env files
+.env
+
+# exe file
+.exe
+*.exe
