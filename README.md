@@ -1,5 +1,7 @@
 # GO Gin GORM CRUD
+
 Simple CRUD in Go using Gin Framework, GORM for ORM and postgresql for the database
+
 ## Initial Set Up
 
 ### Init go module
@@ -48,4 +50,10 @@ go get -u gorm.io/driver/postgres
 
 ```
 CompileDaemon -command="./go-gin-gorm-crud"
+```
+
+## Migrate Database
+
+```
+go run migrate/migrate.go
 ```
